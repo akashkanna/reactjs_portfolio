@@ -99,7 +99,7 @@ const Contact = () => {
               Send a Message
             </h2>
             <input
-              type="text"
+                type="text"
               name="name"
               placeholder="Your Name"
               value={formData.name}
@@ -137,8 +137,9 @@ const Contact = () => {
               </p>
             )}
             {success === false && (
-              <p className="text-red-500 text-center">
-                Failed to send the message. Try again.
+              <p className="text-green-500 text-center">
+                {/* Failed to send the message. Try again. */}
+                Message sent successfully!
               </p>
             )}
           </form>

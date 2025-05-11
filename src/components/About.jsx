@@ -12,6 +12,7 @@ import {
 import {
   SiTailwindcss,
   SiBootstrap,
+  SiCanva,
   SiExpress,
   SiNextdotjs,
   SiNetlify,
@@ -23,7 +24,7 @@ import {
   SiJsonwebtokens,
   SiRender,
 } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandFramer } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
 import { IoLogoNpm, IoLogoVercel } from "react-icons/io5";
 
@@ -46,8 +47,8 @@ const About = () => {
           <span className="font-bold text-[#fe5617]"> 50+ students</span>, and
           as a content creator, I’ve built a community of
           <span className="font-bold text-[#fe5617]"> 25k+ followers</span> on  
-          social media. Currently, I’m a pre-final year B.Tech student in
-          Computer Science Engineering.
+          social media. Currently, I’m a pre-final year B.C.A student in
+          Saraswathy College of Arts and Science.
         </p>
 
         {/* Skills Section */}
@@ -82,26 +83,33 @@ const About = () => {
               <span className="font-bold">React.js</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
+              <SiCanva size={40} className="text-[#61dbfb]" />
+              <span className="font-bold">Canva</span>
+            </div>
+           
+           
+            {/* <div className="flex flex-col items-center space-y-2">
               <SiRedux size={40} className="text-[#764abc]" />
               <span className="font-bold">Redux</span>
             </div>
+            */}
             <div className="flex flex-col items-center space-y-2">
-              <TbBrandFramerMotion size={40} className="text-[#1c1c1c]" />
-              <span className="font-bold">Framer Motion</span>
+              <TbBrandFramer size={40} className="text-[#1c1c1c]" />
+              <span className="font-bold">Framer</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <IoLogoNpm size={40} className="text-[#CB3837]" />
               <span className="font-bold">NPM</span>
             </div>
-            <div className="flex flex-col items-center space-y-2">
+            {/* <div className="flex flex-col items-center space-y-2">
               <FaNode size={40} className="text-[#68a063]" />
               <span className="font-bold">Node.js</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <SiExpress size={40} className="text-[#000000]" />
               <span className="font-bold">Express.js</span>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
+            </div> */}
+            {/* <div className="flex flex-col items-center space-y-2">
               <SiMongodb size={40} className="text-[#47a248]" />
               <span className="font-bold">MongoDB</span>
             </div>
@@ -116,7 +124,7 @@ const About = () => {
             <div className="flex flex-col items-center space-y-2">
               <SiSocketdotio size={40} className="text-[#010101]" />
               <span className="font-bold">Socket.IO</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <FaGitAlt size={40} className="text-[#f05032]" />
               <span className="font-bold">Git</span>
@@ -129,14 +137,14 @@ const About = () => {
               <DiVisualstudio size={40} className="text-[#0078d7]" />
               <span className="font-bold">VS Code</span>
             </div>
-            <div className="flex flex-col items-center space-y-2">
+            {/* <div className="flex flex-col items-center space-y-2">
               <SiPostman size={40} className="text-[#ef5b25]" />
               <span className="font-bold">Postman</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <SiGraphql size={40} className="text-[#e535ab]" />
               <span className="font-bold">GraphQL</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <IoLogoVercel size={40} className="text-[#000]" />
               <span className="font-bold">Vercel</span>
@@ -145,10 +153,10 @@ const About = () => {
               <SiNetlify size={40} className="text-[#00d1b2]" />
               <span className="font-bold">Netlify</span>
             </div>
-            <div className="flex flex-col items-center space-y-2">
+            {/* <div className="flex flex-col items-center space-y-2">
               <SiRender size={40} className="text-[#000]" />
               <span className="font-bold">Render</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <FaFigma size={40} className="text-[#F24E1E]" />
               <span className="font-bold">Figma</span>

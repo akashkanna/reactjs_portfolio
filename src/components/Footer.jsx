@@ -5,12 +5,12 @@ const Footer = () => {
     <footer className="bg-[#fe5617] text-white py-6">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto text-center space-y-2">
         <p className="text-sm md:text-base font-medium">
-          © {new Date().getFullYear()} Immucoder. All rights reserved.
+          © {new Date().getFullYear()} Akmagicpet. All rights reserved.
         </p>
         <p className="text-sm md:text-base font-medium">
           Made with ❤️ by{" "}
           <a href="#" className="underline hover:text-[#ffffff]">
-            Akmagicalcoder
+            Akash kanna
           </a>
         </p>
         <div className="flex justify-center gap-4 mt-2">

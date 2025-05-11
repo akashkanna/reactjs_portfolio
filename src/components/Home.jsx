@@ -17,8 +17,8 @@ const Home = () => {
               options={{
                 strings: [
                   "Web Developer.",
-                  "Grapic designer.",
-                  "Content Creator.",
+                  "Grapic Designer.",
+                  "UI/UX Designer.",
                   
                 ],
                 autoStart: true,
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>+91 99447 37206</span>
+              <span>9944737206</span>
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-[#fe5617]" size={20} />
